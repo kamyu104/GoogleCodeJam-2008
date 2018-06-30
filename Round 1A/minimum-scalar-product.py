@@ -3,8 +3,8 @@
 # Google Code Jam 2008 Round 1A - Problem A. Minimum Scalar Product
 # https://code.google.com/codejam/contest/32016/dashboard
 #
-# Time:  O(nlogn)
-# Space: O(nlogn)
+# Time:  O(NlogN)
+# Space: O(NlogN)
 #
 
 import operator
