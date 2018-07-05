@@ -20,11 +20,11 @@ using std::vector;
 using std::max;
 using std::min;
 
+const int TARGET = 1000000;
 const int MAX_X = 15;
 double dp[2][(1 << MAX_X) + 1];
 
 double millionaire() {
-    static const int TARGET = 1000000;
     uint64_t M, X;
     double P;
     cin >> M >> P >> X;
