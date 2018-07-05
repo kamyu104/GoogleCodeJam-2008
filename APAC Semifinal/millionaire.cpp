@@ -5,7 +5,7 @@
  * Google Code Jam 2008 APAC Semifinal - Problem C. Millionaire
  * https://codejam.withgoogle.com/codejam/contest/32005/dashboard#s=p2
  *
- * Time:  O(M * 2^M)
+ * Time:  O(4^M)
  * Space: O(2^M)
  *
  */
@@ -29,18 +29,18 @@ double millionaire() {
     double P;
     cin >> M >> P >> X;
     dp[0][1] = 1.0;
-    for (int i = 1; i <= M; ++i) {
-        const auto n = 1 << i;
-        auto& curRound = dp[i % 2];
-        auto& nxtRound = dp[(i - 1) % 2];
-        for (int j = 0; j <= n; ++j) {
-            curRound[j] = nxtRound[j / 2];
-            const auto bet = min(j, n - j);
-            for (int k = 0; k <= bet; ++k) {
-                const auto tmp = P * nxtRound[(j + k) / 2] +
-                                 (1 - P) * nxtRound[(j - k) / 2];
-                if (curRound[j] < tmp) {
-                    curRound[j] = tmp;
+    for (int m = 1; m <= M; ++m) {
+        const auto n = 1 << m;
+        auto& curRound = dp[m % 2];
+        auto& nxtRound = dp[(m - 1) % 2];
+        for (int sum = 0; sum <= n; ++sum) {
+            curRound[sum] = nxtRound[sum / 2];
+            const auto max_bet = min(sum, n - sum);
+            for (int bet = 1; bet <= max_bet; ++bet) {
+                const auto tmp = P * nxtRound[(sum + bet) / 2] +
+                                 (1 - P) * nxtRound[(sum - bet) / 2];
+                if (curRound[sum] < tmp) {
+                    curRound[sum] = tmp;
                 }
             }
         }
