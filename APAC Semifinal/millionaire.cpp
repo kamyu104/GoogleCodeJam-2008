@@ -29,8 +29,8 @@ double millionaire() {
     double P;
     cin >> M >> P >> X;
     dp[0][1] = 1.0;
-    int n = 2;
-    for (int i = 1; i <= M; ++i, n <<= 1) {
+    for (int i = 1; i <= M; ++i) {
+        const auto n = 1 << i;
         auto& curRound = dp[i % 2];
         auto& nxtRound = dp[(i - 1) % 2];
         for (int j = 0; j <= n; ++j) {
