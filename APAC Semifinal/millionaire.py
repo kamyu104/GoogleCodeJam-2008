@@ -23,7 +23,8 @@ def millionaire():
             curRound[sum] = nxtRound[sum//2];
             for bet in xrange(1, max_bet+1):
                 curRound[sum] = max(curRound[sum],
-                                    P*nxtRound[(sum+bet)//2] + (1.0-P)*nxtRound[(sum-bet)//2])
+                                    P*nxtRound[(sum+bet)//2] +
+                                    (1.0-P)*nxtRound[(sum-bet)//2])
     return dp[M%2][X*(2**M)//TARGET]
 
 for case in xrange(input()):
