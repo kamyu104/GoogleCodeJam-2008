@@ -1,6 +1,6 @@
 # [GoogleCodeJam 2008](https://code.google.com/codejam/contests.html) ![Language](https://img.shields.io/badge/language-Python-orange.svg) [![License](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE) ![Progress](https://img.shields.io/badge/progress-2%20%2F%2037-ff69b4.svg)
 
-Python solutions of Google Code Jam 2008.
+Python solutions of Google Code Jam 2008. Solution begins with `*` means it will get TLE in the largest data set (total computation amount > `10^8`, which is not friendly for Python to solve in 5 ~ 15 seconds).
 
 * [Qualification Round](https://github.com/kamyu104/GoogleCodeJam-2008#qualification-round)
 * [Round 1A](https://github.com/kamyu104/GoogleCodeJam-2008#round-1a)
@@ -42,7 +42,7 @@ Python solutions of Google Code Jam 2008.
 ## APAC Semifinal
 | # | Title | Solution | Time | Space | Difficulty | Tag | Note |
 |---| ----- | -------- | ---- | ----- | ---------- | --- | ---- |
-|C| [Millionaire](https://codejam.withgoogle.com/codejam/contest/32005/dashboard#s=p2)| [Python](./APAC%20Semifinal/millionaire.py)| _O(4^M)_ | _O(2^M)_ | Medium | | DP |
+|C| [Millionaire](https://codejam.withgoogle.com/codejam/contest/32005/dashboard#s=p2)| [C++](./APAC%20Semifinal/millionaire.cpp) [*Python](./APAC%20Semifinal/millionaire.py)| _O(4^M)_ | _O(2^M)_ | Medium | | DP |
 
 ## AMER Semifinal
 | # | Title | Solution | Time | Space | Difficulty | Tag | Note |
