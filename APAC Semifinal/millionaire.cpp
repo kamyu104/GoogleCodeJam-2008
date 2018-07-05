@@ -20,20 +20,28 @@ using std::vector;
 using std::max;
 using std::min;
 
+const int MAX_X = 15;
+double dp[2][(1 << MAX_X) + 1];
+
 double millionaire() {
     static const int TARGET = 1000000;
     uint64_t M, X;
     double P;
     cin >> M >> P >> X;
-    vector<vector<double>> dp(2, vector<double>((1 << M) + 1, 0.0));
     dp[0][1] = 1.0;
-    for (int i = 1; i <= M; ++i) {
-        for (int j = 0; j <= (1 << i); ++j) {
-            dp[i % 2][j] = dp[(i - 1) % 2][j / 2];
-            for (int k = 0; k <= min(j, (1 << i) - j); ++k) {
-                dp[i % 2][j] = max(dp[i % 2][j],
-                                   P * dp[(i - 1) % 2][(j + k) / 2] +
-                                   (1 - P) * dp[(i - 1) % 2][(j - k) / 2]);
+    int n = 2;
+    for (int i = 1; i <= M; ++i, n <<= 1) {
+        auto& curRound = dp[i % 2];
+        auto& nxtRound = dp[(i - 1) % 2];
+        for (int j = 0; j <= n; ++j) {
+            curRound[j] = nxtRound[j / 2];
+            const auto bet = min(j, n - j);
+            for (int k = 0; k <= bet; ++k) {
+                const auto tmp = P * nxtRound[(j + k) / 2] +
+                                 (1 - P) * nxtRound[(j - k) / 2];
+                if (curRound[j] < tmp) {
+                    curRound[j] = tmp;
+                }
             }
         }
     }
