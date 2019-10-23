@@ -47,7 +47,7 @@ Python solutions of Google Code Jam 2008. Solution begins with `*` means it will
 ## AMER Semifinal
 | # | Title | Solution | Time | Space | Difficulty | Tag | Note |
 |---| ----- | -------- | ---- | ----- | ---------- | --- | ---- |
-|D| [King](https://code.google.com/codejam/contest/32008/dashboard#s=p3&a=4)|  | _O(R * C * 2^C)_ | _O(R * C * 2^C)_ | Very Hard | | DP, Brute Force |
+|D| [King](https://code.google.com/codejam/contest/32008/dashboard#s=p3)|  | _O(R * C * 2^C)_ | _O(R * C * 2^C)_ | Very Hard | | DP, Brute Force |
 
 ## EMEA Semifinal
 | # | Title | Solution | Time | Space | Difficulty | Tag | Note |
