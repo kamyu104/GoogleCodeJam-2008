@@ -43,7 +43,7 @@ Python solutions of Google Code Jam 2008. Solution begins with `*` means it will
 ## APAC Semifinal
 | # | Title | Solution | Time | Space | Difficulty | Tag | Note |
 |---| ----- | -------- | ---- | ----- | ---------- | --- | ---- |
-|C| [Millionaire](https://codejam.withgoogle.com/codejam/contest/32005/dashboard#s=p2)| [C++](./APAC%20Semifinal/millionaire.cpp) [*Python](./APAC%20Semifinal/millionaire.py)| _O(4^M)_ | _O(2^M)_ | Medium | | DP |
+|C| [Millionaire](https://codejam.withgoogle.com/codejam/contest/32005/dashboard#s=p2)| [C++](./APAC%20Semifinal/millionaire.cpp) [PyPy](./APAC%20Semifinal/millionaire.py)| _O(4^M)_ | _O(2^M)_ | Medium | | DP |
 
 ## AMER Semifinal
 | # | Title | Solution | Time | Space | Difficulty | Tag | Note |
