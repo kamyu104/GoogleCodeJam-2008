@@ -88,17 +88,17 @@ def bipartiteMatch(graph):
 
 def no_cheating():
     M, N = map(int, raw_input().strip().split())
-    seat, E, count = [], collections.defaultdict(list), 0
+    seats, E, count = [], collections.defaultdict(list), 0
     for i in xrange(M):
-        seat.append(raw_input().strip())
+        seats.append(raw_input().strip())
         for j in xrange(N):
-            if seat[i][j] == 'x':
+            if seats[i][j] != '.':
                 continue
             count += 1
             for dx, dy in DIRECTIONS:
                 ni, nj = i+dx, j+dy
                 if 0 <= ni < M and 0 <= nj < N and \
-                    seat[ni][nj] == '.':
+                    seats[ni][nj] == '.':
                     if j%2 == 0:
                         E[i*N+j].append(ni*N+nj)
                     else:
