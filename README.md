@@ -38,7 +38,7 @@ Python solutions of Google Code Jam 2008. Solution begins with `*` means it will
 ## Round 3
 | # | Title | Solution | Time | Space | Difficulty | Tag | Note |
 |---| ----- | -------- | ---- | ----- | ---------- | --- | ---- |
-|C| [No Cheating](https://code.google.com/codejam/contest/32002/dashboard#s=p2)|  | _O(M * N * sqrt(M * N)_ | _O(M * N)_ | Easy | | Bipartite Matching |
+|C| [No Cheating](https://code.google.com/codejam/contest/32002/dashboard#s=p2)| [Python](./Round%203/no_cheating.py) | _O(M * N * sqrt(M * N)_ | _O(M * N)_ | Easy | | Bipartite Matching |
 
 ## APAC Semifinal
 | # | Title | Solution | Time | Space | Difficulty | Tag | Note |
@@ -48,7 +48,7 @@ Python solutions of Google Code Jam 2008. Solution begins with `*` means it will
 ## AMER Semifinal
 | # | Title | Solution | Time | Space | Difficulty | Tag | Note |
 |---| ----- | -------- | ---- | ----- | ---------- | --- | ---- |
-|D| [King](https://code.google.com/codejam/contest/32008/dashboard#s=p3)| [Python](./Round%203/no_cheating.py) | _O(R * C * 2^C)_ | _O(R * C * 2^C)_ | Very Hard | | DP, Brute Force |
+|D| [King](https://code.google.com/codejam/contest/32008/dashboard#s=p3)| | _O(R * C * 2^C)_ | _O(R * C * 2^C)_ | Very Hard | | DP, Brute Force |
 
 ## EMEA Semifinal
 | # | Title | Solution | Time | Space | Difficulty | Tag | Note |
