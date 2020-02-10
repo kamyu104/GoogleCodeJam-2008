@@ -97,8 +97,7 @@ def no_cheating():
             count += 1
             for dx, dy in DIRECTIONS:
                 ni, nj = i+dx, j+dy
-                if 0 <= ni < M and 0 <= nj < N and \
-                    seats[ni][nj] == '.':
+                if 0 <= ni < M and 0 <= nj < N and seats[ni][nj] == '.':
                     if j%2 == 0:
                         E[i*N+j].append(ni*N+nj)
                     else:
