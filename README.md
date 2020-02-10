@@ -12,7 +12,7 @@ Python solutions of Google Code Jam 2008. Solution begins with `*` means it will
 * [AMER Semifinal](https://github.com/kamyu104/GoogleCodeJam-2008#amer-semifinal)
 * [EMEA Semifinal](https://github.com/kamyu104/GoogleCodeJam-2008#emea-semifinal)
 * [World Finals](https://github.com/kamyu104/GoogleCodeJam-2008#world-finals)
-* [GoogleCodeJame-2009](https://github.com/kamyu104/GoogleCodeJam-2009)
+* [Code Jam 2009](https://github.com/kamyu104/GoogleCodeJam-2009)
 
 ## Qualification Round
 | # | Title | Solution | Time | Space | Difficulty | Tag | Note |
