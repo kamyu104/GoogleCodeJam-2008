@@ -27,7 +27,8 @@ def matrix_expo(A, K):
 def numbers():
     return "%03d" % ((2*matrix_expo(A, input())[0][0]-1)%MOD)
 
-A = [[3, 5], [1, 3]]
+A = [[3, 5],
+     [1, 3]]
 MOD = 1000
 for case in xrange(input()):
     print 'Case #%d: %s' % (case+1, numbers())
