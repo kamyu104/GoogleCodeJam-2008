@@ -1,4 +1,4 @@
-# [GoogleCodeJam 2008](https://codingcompetitions.withgoogle.com/codejam/archive/2008) ![Language](https://img.shields.io/badge/language-Python-orange.svg) [![License](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE) ![Progress](https://img.shields.io/badge/progress-3%20%2F%2037-ff69b4.svg)
+# [GoogleCodeJam 2008](https://codingcompetitions.withgoogle.com/codejam/archive/2008) ![Language](https://img.shields.io/badge/language-Python-orange.svg) [![License](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE) ![Progress](https://img.shields.io/badge/progress-4%20%2F%2037-ff69b4.svg)
 
 Python solutions of Google Code Jam 2008. Solution begins with `*` means it will get TLE in the largest data set (total computation amount > `10^8`, which is not friendly for Python to solve in 5 ~ 15 seconds). A `4-minute` timer is set for the small dataset and a `8-minute` timer is set for the large dataset this year.
 
