@@ -46,8 +46,7 @@ def sieve_of_eratosthenes(n):  # Time: O(M), Space: O(M)
 def number_sets():
     A, B, P = map(int, raw_input().strip().split())
     union_find = UnionFind(B-A+1)
-    start, end = bisect_left(PRIMES, P), bisect_right(PRIMES, B-A)
-    for p in islice(PRIMES, start, end):
+    for p in islice(PRIMES, bisect_left(PRIMES, P), bisect_right(PRIMES, B-A)):
         left, right = ((A-1)//p+1)*p, B//p*p
         for i in xrange(left, right+1, p):
             union_find.union_set(left-A, i-A)
