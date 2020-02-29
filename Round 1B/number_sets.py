@@ -3,7 +3,8 @@
 # Google Code Jam 2008 Round 1B - Problem B. Number Sets
 # https://code.google.com/codejam/contest/32017/dashboard#s=p1
 #
-# Time:  O(B - A)
+# Time:  O(F * (B - A)), F is the max number of factors of integers in the interval [A, B]
+#                      , F is at most 11 (2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31) by the given limits
 # Space: O(B - A)
 #
 

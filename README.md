@@ -32,7 +32,7 @@ Python solutions of Google Code Jam 2008. Solution begins with `*` means it will
 | # | Title | Solution | Time | Space | Difficulty | Tag | Note |
 |---| ----- | -------- | ---- | ----- | ---------- | --- | ---- |
 |A| [Crop Triangles](https://code.google.com/codejam/contest/32017/dashboard#s=p0)| | | | | | |
-|B| [Number Sets](https://code.google.com/codejam/contest/32017/dashboard#s=p1)| [Python](./Round%201B/number_sets.py) | _O(B - A)_ | _O(B - A)_ | Easy | | Prime Sieving, Binary Search, Union Find |
+|B| [Number Sets](https://code.google.com/codejam/contest/32017/dashboard#s=p1)| [Python](./Round%201B/number_sets.py) | _O(F * (B - A))_ | _O(B - A)_ | Easy | | Prime Sieving, Binary Search, Union Find |
 |C| [Mousetrap](https://code.google.com/codejam/contest/32017/dashboard#s=p2)| | | | | | |
 
 ## Round 1C
