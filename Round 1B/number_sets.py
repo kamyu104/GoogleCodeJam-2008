@@ -30,6 +30,8 @@ class UnionFind(object):
             self.set[min(x_root, y_root)] = max(x_root, y_root)
             self.count -= 1
 
+# Template:
+# https://github.com/kamyu104/GoogleCodeJam-2016/blob/master/World%20Finals/gallery-of-pillars.py
 def sieve_of_eratosthenes(n):  # Time: O(M), Space: O(M)
     is_prime, primes = [True]*n, []
     for i in xrange(2, n):
