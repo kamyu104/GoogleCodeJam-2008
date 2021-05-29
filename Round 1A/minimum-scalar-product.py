@@ -4,7 +4,7 @@
 # https://code.google.com/codejam/contest/32016/dashboard
 #
 # Time:  O(NlogN)
-# Space: O(NlogN)
+# Space: O(1)
 #
 
 import operator

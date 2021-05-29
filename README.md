@@ -24,7 +24,7 @@ Python solutions of Google Code Jam 2008. Solution begins with `*` means it will
 ## Round 1A
 | # | Title | Solution | Time | Space | Difficulty | Tag | Note |
 |---| ----- | -------- | ---- | ----- | ---------- | --- | ---- |
-|A| [Minimum Scalar Product](https://code.google.com/codejam/contest/32016/dashboard#s=p0)| [Python](./Round%201A/minimum-scalar-product.py)| _O(NlogN)_ | _O(NlogN)_ | Easy | | Sort |
+|A| [Minimum Scalar Product](https://code.google.com/codejam/contest/32016/dashboard#s=p0)| [Python](./Round%201A/minimum-scalar-product.py)| _O(NlogN)_ | _O(1)_ | Easy | | Sort |
 |B| [Milkshakes](https://code.google.com/codejam/contest/32016/dashboard#s=p1)| | | | | | |
 |C| [Numbers](https://code.google.com/codejam/contest/32016/dashboard#s=p2)| [Python](./Round%201A/numbers.py) | _O(logN)_ | _O(1)_ | Easy | | Matrix Exponentiation |
 
